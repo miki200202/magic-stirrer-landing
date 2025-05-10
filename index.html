@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magic Stirrer | El palito que revoluciona tu café ☕✨</title>
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Font: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --color1:#F01A77; /* Primario */
+      --color2:#faf5f7; /* Fondos suaves */
+      --color3:#ff0f0e; /* Botones */
+      --color4:#ffffff; /* Blanco */
+    }
+    body{
+      font-family:'Poppins', sans-serif;
+    }
+    .btn-primary{
+      background:var(--color3);
+      color:var(--color4);
+      transition:background .3s ease;
+    }
+    .btn-primary:hover{
+      background:var(--color1);
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800 selection:bg-[var(--color1)]/70 selection:text-white">
+  <!-- Header -->
+  <header class="bg-[var(--color2)] border-b">
+    <div class="container mx-auto px-4 py-14 text-center flex flex-col items-center">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4 text-[var(--color1)] leading-tight">Magic Stirrer ✨</h1>
+      <p class="text-lg md:text-2xl mb-8 max-w-2xl">El palito que remueve tu café y cuida tu piel con colágeno hidrolizado 🍃</p>
+      <a href="#precio" class="btn-primary px-8 py-3 rounded-full shadow-lg text-lg font-semibold">¡Lo quiero ahora! 🚀</a>
+    </div>
+  </header>
+
+  <!-- ¿Por qué Magic Stirrers? -->
+  <section class="py-20">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-semibold text-center mb-12">¿Por qué <span class="text-[var(--color1)]">Magic Stirrer</span>? 🤔</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Card 1 -->
+        <div class="bg-[var(--color2)] rounded-2xl shadow-lg p-6 flex flex-col items-center text-center">
+          <span class="text-4xl mb-4">💪</span>
+          <h3 class="font-semibold text-xl mb-2">Colágeno activo</h3>
+          <p class="text-sm">Cada removida libera colágeno hidrolizado que fortalece tu piel, cabello y uñas.</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="bg-[var(--color2)] rounded-2xl shadow-lg p-6 flex flex-col items-center text-center">
+          <span class="text-4xl mb-4">🌱</span>
+          <h3 class="font-semibold text-xl mb-2">Envoltorio eco</h3>
+          <p class="text-sm">Packaging 100 % compostable para un planeta más verde.</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="bg-[var(--color2)] rounded-2xl shadow-lg p-6 flex flex-col items-center text-center">
+          <span class="text-4xl mb-4">⏱️</span>
+          <h3 class="font-semibold text-xl mb-2">Ahorra tiempo</h3>
+          <p class="text-sm">Endulza y añade colágeno en un solo gesto, ¡sin medir ni ensuciar!</p>
+        </div>
+        <!-- Card 4 -->
+        <div class="bg-[var(--color2)] rounded-2xl shadow-lg p-6 flex flex-col items-center text-center">
+          <span class="text-4xl mb-4">😋</span>
+          <h3 class="font-semibold text-xl mb-2">Sabor increíble</h3>
+          <p class="text-sm">Tres variedades deliciosas que elevan tu ritual cafetero diario.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cómo funciona -->
+  <section class="py-20 bg-[var(--color2)]">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-semibold text-center mb-12">¿Cómo funciona? 🔍</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Paso 1 -->
+        <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col items-center text-center">
+          <img src="https://placehold.co/200x200?text=Sabor" alt="Escoge tu sabor" class="h-32 mb-4 object-contain rounded-lg">
+          <h4 class="font-semibold">Escoge tu sabor</h4>
+          <p class="text-sm">Clásico, Vainilla o Choco‑latte.</p>
+        </div>
+        <!-- Paso 2 -->
+        <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col items-center text-center">
+          <img src="https://placehold.co/200x200?text=Mezcla" alt="Abre y mezcla" class="h-32 mb-4 object-contain rounded-lg">
+          <h4 class="font-semibold">Abre y mezcla</h4>
+          <p class="text-sm">Rompe el envoltorio eco ✂️, remueve tu bebida 10 s.</p>
+        </div>
+        <!-- Paso 3 -->
+        <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col items-center text-center">
+          <img src="https://placehold.co/200x200?text=Disfruta" alt="Disfruta" class="h-32 mb-4 object-contain rounded-lg">
+          <h4 class="font-semibold">Disfruta de tu ritual</h4>
+          <p class="text-sm">Siente el boost de sabor y bienestar cada mañana.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nuestros productos -->
+  <section class="py-20">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-semibold text-center mb-12">Nuestros productos 🛍️</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Product 1 -->
+        <div class="bg-[var(--color2)] rounded-2xl shadow-lg p-6 flex flex-col items-center text-center">
+          <img src="https://placehold.co/300x200?text=Classic" class="h-40 mb-4 object-contain rounded-lg" alt="Classic Collagen">
+          <h3 class="font-semibold text-xl mb-2">Classic Collagen</h3>
+          <p class="text-sm">El sabor original sin azúcar añadido.</p>
+        </div>
+        <!-- Product 2 -->
+        <div class="bg-[var(--color2)] rounded-2xl shadow-lg p-6 flex flex-col items-center text-center">
+          <img src="https://placehold.co/300x200?text=Vanilla" class="h-40 mb-4 object-contain rounded-lg" alt="Vanilla Bliss">
+          <h3 class="font-semibold text-xl mb-2">Vanilla Bliss</h3>
+          <p class="text-sm">Toques cremosos de vainilla para los paladares más dulces.</p>
+        </div>
+        <!-- Product 3 -->
+        <div class="bg-[var(--color2)] rounded-2xl shadow-lg p-6 flex flex-col items-center text-center">
+          <img src="https://placehold.co/300x200?text=Choco" class="h-40 mb-4 object-contain rounded-lg" alt="Choco‑Latte">
+          <h3 class="font-semibold text-xl mb-2">Choco‑Latte</h3>
+          <p class="text-sm">La tentación del cacao con cero remordimientos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Preguntas frecuentes -->
+  <section class="py-20 bg-[var(--color2)]">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-semibold text-center mb-12">Preguntas frecuentes ❓</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- FAQ 1 -->
+        <div class="bg-white rounded-2xl shadow-md p-6">
+          <h4 class="font-semibold mb-2">¿Cuánto colágeno contiene cada Magic Stirrer?</h4>
+          <p class="text-sm">Cada palito incluye 5 g de colágeno hidrolizado de alta biodisponibilidad.</p>
+        </div>
+        <!-- FAQ 2 -->
+        <div class="bg-white rounded-2xl shadow-md p-6">
+          <h4 class="font-semibold mb-2">¿Endulza la bebida?</h4>
+          <p class="text-sm">Sí 🧁, usamos eritritol natural para endulzar sin calorías.</p>
+        </div>
+        <!-- FAQ 3 -->
+        <div class="bg-white rounded-2xl shadow-md p-6">
+          <h4 class="font-semibold mb-2">¿Es apto para veganos?</h4>
+          <p class="text-sm">El colágeno proviene de origen marino, por lo que no es vegano. Estamos trabajando en una versión vegetal.</p>
+        </div>
+        <!-- FAQ 4 -->
+        <div class="bg-white rounded-2xl shadow-md p-6">
+          <h4 class="font-semibold mb-2">¿Cuánto tarda el envío?</h4>
+          <p class="text-sm">Envío express 24‑48 h a toda la península 🛵💨.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Precio -->
+  <section id="precio" class="py-20">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+        <!-- Texto de venta -->
+        <div>
+          <h2 class="text-3xl md:text-4xl font-bold mb-6 leading-snug">Convierte tu café en un elixir de bienestar ☕❤️</h2>
+          <p class="text-lg">Ahorra tiempo y espacio con nuestro palito todo en uno: endulza, mejora tu piel y disfruta de un sabor increíble.</p>
+        </div>
+        <!-- Card precio -->
+        <div class="bg-[var(--color2)] rounded-2xl shadow-lg p-8 flex flex-col">
+          <div class="text-center mb-6">
+            <span class="text-5xl font-extrabold text-[var(--color1)]">19,90€</span>
+            <p class="text-sm">Pack de 10 Magic Stirrers</p>
+          </div>
+          <ul class="space-y-3 mb-8">
+            <li class="flex items-start"><span class="text-green-500 mr-2">✔️</span> Colágeno premium</li>
+            <li class="flex items-start"><span class="text-green-500 mr-2">✔️</span> Endulzante natural sin calorías</li>
+            <li class="flex items-start"><span class="text-green-500 mr-2">✔️</span> Envío gratis 24 h</li>
+          </ul>
+          <a href="#" class="btn-primary w-full text-center py-3 rounded-lg shadow-md font-semibold">Añadir al carrito 🛒</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section class="py-20 bg-[var(--color2)]">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-semibold mb-6">¿Tienes preguntas? 📩</h2>
+      <p class="mb-6">Escríbenos y te responderemos en menos de 24 h.</p>
+      <a href="mailto:magicstirrers@gmail.com" class="btn-primary inline-block px-10 py-3 rounded-full shadow-lg">Contactar ahora</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center text-sm bg-white border-t">
+    © 2025 Magic Stirrer. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
